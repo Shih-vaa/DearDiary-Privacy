@@ -1,7 +1,10 @@
 ## Privacy Policy
+
+_Last updated: 2026-10-14_
+
 > **Note:** This policy was drafted by auditing the app's actual code paths (what data it touches, where it sends it, and what third-party SDKs are wired in), not written from a template. It's a solid starting point, but isn't legal advice — have it reviewed before publishing, especially the Google Sign-In section, since Google's API Services User Data Policy has its own specific disclosure requirements.
 >
-> This file is the source copy. The version Play Console and end users should link to is the published one: **https://shih-vaa.github.io/deardiary-legal/privacy.html** (this repo is private, so this file itself isn't publicly reachable — that URL is served from the separate public  repo, which should be kept in sync with this file by hand when either changes).
+> This file is the source copy. The version Play Console and end users should link to is the published one: **https://shih-vaa.github.io/deardiary-legal/privacy.html** (this repo is private, so this file itself isn't publicly reachable — that URL is served from the separate public repo, which should be kept in sync with this file by hand when either changes).
 
 ## Summary
 
@@ -15,7 +18,7 @@ DearDiary is a journaling app. Your diary entries, doodles, and images are store
 
 **Diary content.** Everything you write, draw, or paste into a diary — text, doodles, embedded images, page titles — is stored **locally on your device** in a private, sandboxed database. We do not receive or have access to this content unless you turn on backup.
 
-**Backup (optional, off by default).** If you enable Google Drive backup, your entire diary — every book, page, doodle, and embedded image — is uploaded to a hidden, app-private folder in *your own* Google Drive (Google's ), which only this app, authenticated as you, can read. It does not appear in your regular Drive file list. This upload is protected by your Google account's access controls but is **not separately encrypted** by the app before it's sent — please don't rely on it as an encrypted backup in the cryptographic sense.
+**Backup (optional, off by default).** If you enable Google Drive backup, your entire diary — every book, page, doodle, and embedded image — is uploaded to a hidden, app-private folder in *your own* Google Drive (Google's [app data folder](https://developers.google.com/drive/api/guides/appdata)), which only this app, authenticated as you, can read. It does not appear in your regular Drive file list. This upload is protected by your Google account's access controls but is **not separately encrypted** by the app before it's sent — please don't rely on it as an encrypted backup in the cryptographic sense.
 
 **Crash and diagnostic data.** We use Sentry to catch crashes and errors. This can include your device type, OS version, IP address, and — for a sample of sessions (10% of normal sessions, 100% of sessions that hit an error) — a masked screen recording (text and images are masked by default) to help us understand what led to a bug.
 
@@ -45,7 +48,12 @@ We do not use your diary content for analytics, advertising, or any purpose beyo
 Diary content lives on your device until you delete it there, or delete a backup copy from your Google Drive's app data directly. Account and profile data (email, name, bio, etc.) is retained until you ask us to delete it.
 
 **To delete your account and associated data:**
-- **In the app:** open **Profile** and tap *- **In the app:** open **Profile** and tap *- **In the app:** open **Profile** and tap *- **In the app:** open **Profilisit- **In the app:** open pa- **In the app:** open **Profile** and tap *- **In the app:** open **Profile** and tap *- **In the app:me - **In the app:** open **Profile** and tap *- **In the app:** open **Profile** and tap *- **In the app:** open **Profile** and tap *- **In the app:** open **Profilisit- **In the app:** open pa- **In the app:** open **Profile** and tap *- **In the app:** open **Profile** and tap *- **In the app:me - **In the app:** openDr- **In the app:** open **Profile** and tap *- **In the app:** open **Profile** and tap *- **InearDiary is not directed at children under 13, and we do not knowingly collect information from them.
+- **In the app:** open **Profile** and tap **[TAP TARGET — e.g. "Delete Account"]**.
+- **By email:** contact **shiva.zen.dev@gmail.com** from the email address associated with your account.
+
+## Children's Privacy
+
+DearDiary is not directed at children under 13, and we do not knowingly collect information from them.
 
 ## Your Choices
 
